@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedStore | E-commerce Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div id="container">
+        <div class="navbar">
+          <div class="logo">
+            <img
+              src="./assets/RedStore_Img/images/logo.png"
+              alt="Logo"
+              width="125px"
+            />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <img
+            src="./assets/RedStore_Img/images/cart.png"
+            width="30px"
+            height="30px"
+            alt="cart icon"
+          />
+          <img
+            src="./assets/RedStore_Img/images/menu.png"
+            class="menu-icon"
+            onclick="menutoggle()"
+            alt="logo"
+          />
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout <br />
+              A New Style
+            </h1>
+            <p>
+              Success isn't always about greatness. it's about consistency.
+              Consistent <br />
+              hard work gains success. Greatness will come.
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img
+              src="./assets/RedStore_Img/images/image1.png"
+              alt="main photo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured categories -->
+
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img
+              src="./assets/RedStore_Img/images/category-1.jpg"
+              alt="fashion wear"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="./assets/RedStore_Img/images/category-2.jpg"
+              alt="fashion wear"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="./assets/RedStore_Img/images/category-3.jpg"
+              alt="fashion wear"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured products -->
+
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-1.jpg"
+            alt="red t-shirt"
+          />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-2.jpg"
+            alt="black shoe"
+          />
+          <h4>Black shoe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="./assets/RedStore_Img/images/product-3.jpg" alt="jumpers" />
+          <h4>Jumpers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-4.jpg"
+            alt="blue t-shirt"
+          />
+          <h4>Blue T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$30.00</p>
+        </div>
+      </div>
+
+      <!-- Latest Products -->
+      <h2 class="title">Latest Products</h2>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="./assets/RedStore_Img/images/product-5.jpg" alt="Jordans" />
+          <h4>Jordans</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <!-- <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i> -->
+          </div>
+          <p>$70.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-6.jpg"
+            alt="black printed T-Shirt"
+          />
+          <h4>Black Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-9.jpg"
+            alt="Black X Leather watch"
+          />
+          <h4>Black X Leather Watch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-10.jpg"
+            alt="Black X shoe"
+          />
+          <h4>Black X Shoe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-11.jpg"
+            alt="sports shoe"
+          />
+          <h4>Sports Shoe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-12.jpg"
+            alt="black jumpers"
+          />
+          <h4>Black Jumpers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$30.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-7.jpg"
+            alt="HR socks"
+          />
+          <h4>HR socks</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$15.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/RedStore_Img/images/product-8.jpg"
+            alt="black rolex watch"
+          />
+          <h4>Black Rolex Watch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <!-- <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i> -->
+          </div>
+          <p>$90.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!--offer  -->
+
+    <div class="offer">
+      <div class="samll-container">
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="./assets/RedStore_Img/images/exclusive.png"
+              class="offer-img"
+              alt="exclusive offer"
+            />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available On The RedStore</p>
+            <h1>Smart Band 4</h1>
+            <p>
+              The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
+              AMOLED color full-touch display with adjustable brightness, so
+              everything is clear as can be
+            </p>
+            <a href="" class="btn">Buy Now &#8594;</a>
+            <!-- <a href="">HELLO</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial -->
+
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's dummy text ever
+            </p>
+
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="./assets/RedStore_Img/images/user-1.png" alt="user-1" />
+            <h3>Sean Parker</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's dummy text ever
+            </p>
+
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <img src="./assets/RedStore_Img/images/user-2.png" alt="user-2" />
+            <h3>Mike Smith</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"> </i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's dummy text ever
+            </p>
+
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="./assets/RedStore_Img/images/user-3.png" alt="user-3" />
+            <h3>Mobel Joe</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- brands -->
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img
+              src="./assets/RedStore_Img/images/logo-godrej.png"
+              alt="logo"
+            />
+          </div>
+          <div class="col-5">
+            <img src="./assets/RedStore_Img/images/logo-oppo.png" alt="logo" />
+          </div>
+          <div class="col-5">
+            <img
+              src="./assets/RedStore_Img/images/logo-coca-cola.png"
+              alt="logo"
+            />
+          </div>
+          <div class="col-5">
+            <img
+              src="./assets/RedStore_Img/images/logo-paypal.png"
+              alt="logo"
+            />
+          </div>
+          <div class="col-5">
+            <img
+              src="./assets/RedStore_Img/images/logo-philips.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Andriod and ios mobile phone</p>
+            <div class="app-logo">
+              <img
+                src="./assets/RedStore_Img/images/play-store.png"
+                alt="logo"
+              />
+              <img
+                src="./assets/RedStore_Img/images/app-store.png"
+                alt="logo"
+              />
+            </div>
+          </div>
+
+          <div class="footer-col-2">
+            <img src="./assets/RedStore_Img/images/logo-white.png" alt="logo" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure And Benefits of
+              Sports Accessible to the Many
+            </p>
+          </div>
+
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyrights 2024 - Cyber Dave</p>
+      </div>
+    </div>
+
+    <!-- js for toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
